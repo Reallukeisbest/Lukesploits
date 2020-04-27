@@ -1,0 +1,466 @@
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.140473172, 0, 0.134719923, 0)
+Frame.Size = UDim2.new(0, 946, 0, 517)
+Frame.Visible = false
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0, 0, -0.0971116126, 0)
+TextLabel.Size = UDim2.new(0, 946, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Lukesploits necessities"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.0613636374, 0, 0.264386177, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Hecking gui v2"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(0.0613636374, 0, 0.0155904777, 0)
+TextButton_2.Size = UDim2.new(0, 200, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Infinite Yield"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(0.0613636374, 0, 0.137732625, 0)
+TextButton_3.Size = UDim2.new(0, 200, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Unanchor to player"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.Position = UDim2.new(0.0613636374, 0, 0.383692086, 0)
+TextButton_4.Size = UDim2.new(0, 200, 0, 50)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Invisible fling"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.Position = UDim2.new(0.0609247237, 0, 0.493346721, 0)
+TextButton_5.Size = UDim2.new(0, 200, 0, 50)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Punch gui"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.Position = UDim2.new(0.0598676428, 0, 0.619239569, 0)
+TextButton_6.Size = UDim2.new(0, 200, 0, 50)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Jailbreak (Jailed cat)"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+TextButton_7.Parent = Frame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.Position = UDim2.new(0.0598676503, 0, 0.746634483, 0)
+TextButton_7.Size = UDim2.new(0, 200, 0, 50)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Rocitizens GUI"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
+TextButton_8.Parent = Frame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.Position = UDim2.new(0.0598676503, 0, 0.87101984, 0)
+TextButton_8.Size = UDim2.new(0, 200, 0, 50)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "Work at a pizza place admin"
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextWrapped = true
+
+TextButton_9.Parent = Frame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.Position = UDim2.new(0.302378416, 0, 0.0155904777, 0)
+TextButton_9.Size = UDim2.new(0, 200, 0, 50)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "CMD - X"
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
+
+TextButton_10.Parent = ScreenGui
+TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.Position = UDim2.new(0, 0, 0.4375, 0)
+TextButton_10.Size = UDim2.new(0, 52, 0, 50)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "Toggle GUI"
+TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.TextScaled = true
+TextButton_10.TextSize = 14.000
+TextButton_10.TextWrapped = true
+
+-- Scripts:
+
+local function YQZGN_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.LoaderIntegrity = "UPGTUPTTUCAUQCUAUGCUGGCUJZUTPUPGCUGGAUTAUPGCUGTUPAUGGTUPGUPGTUGCHUAFGQQFGCZFGCQFGPQFGTTFGZIFGZAFGGJFGCPFGPQFGZPFGTAFGTZFGAPFGPGFGGQFGAQFIZFGZJFII"
+	_G.TECHDUCK = "387513980779801623567125786125879612567126789578125"
+	
+	_G.tyenfyvnd = {"Synpase X","Luraph", "StinkyHaxx", "Those Exploits are cool"}
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/thomas13215/Loader/master/47465", true))()
+	end)
+end
+coroutine.wrap(YQZGN_fake_script)()
+local function WMKIBRH_fake_script() -- TextButton_2.Script 
+	local script = Instance.new('Script', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+end
+coroutine.wrap(WMKIBRH_fake_script)()
+local function JEAU_fake_script() -- TextButton_3.Script 
+	local script = Instance.new('Script', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/y2yFfXw3", true))()
+	end)
+end
+coroutine.wrap(JEAU_fake_script)()
+local function CUPTI_fake_script() -- TextButton_4.Script 
+	local script = Instance.new('Script', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+	
+	spawn(function()
+	local message = Instance.new("Message",workspace)
+	message.Text = "Loaded press z to execute inviseble , press x to respawn)"
+	wait(0.5)
+	message:Destroy()
+	end)
+	
+	
+	
+	
+	
+	
+	
+	
+	local mouse = game.Players.LocalPlayer:GetMouse()
+	
+	local groot = nil
+	
+	mouse.KeyDown:connect(function(k)
+		
+		if k == "z" then
+			
+			
+			
+	spawn(function()
+	local message = Instance.new("Message",workspace)
+	message.Text = "Fe Invisible Fling By Diemiers#4209 Loaded (wait 11 seconds to load)"
+	wait(11)
+	message:Destroy()
+	end)
+	
+	
+	local ch = game.Players.LocalPlayer.Character
+	local prt=Instance.new("Model", workspace)
+	local z1 =  Instance.new("Part", prt)
+	z1.Name="Torso"
+	z1.CanCollide = false
+	z1.Anchored = true
+	local z2  =Instance.new("Part", prt)
+	z2.Name="Head"
+	z2.Anchored = true
+	z2.CanCollide = false
+	local z3 =Instance.new("Humanoid", prt)
+	z3.Name="Humanoid"
+	z1.Position = Vector3.new(0,9999,0)
+	z2.Position = Vector3.new(0,9991,0)
+	 game.Players.LocalPlayer.Character=prt
+	wait(5)
+	game.Players.LocalPlayer.Character=ch
+	wait(6)
+	
+	
+	local plr = game.Players.LocalPlayer
+	mouse = plr:GetMouse()
+	
+	local Hum = Instance.new("Humanoid")
+	Hum.Parent = game.Players.LocalPlayer.Character
+	
+	
+	local root =  game.Players.LocalPlayer.Character.HumanoidRootPart
+	
+	
+	for i,v in pairs(plr.Character:GetChildren()) do
+		
+		if v ~= root and  v.Name ~= "Humanoid" then
+			
+			v:Destroy()
+			
+		end
+		
+		
+	end
+	           
+	workspace.CurrentCamera.CameraSubject = root
+	
+	local se = Instance.new("SelectionBox",root)
+	se.Adornee = root
+	
+	
+	game:GetService('RunService').Stepped:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = false
+	end)
+	game:GetService('RunService').RenderStepped:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = false
+	end)
+	
+	
+	power = 999999 -- change this to make it more or less powerful
+	
+	power = power*10
+	
+	---
+	wait(.1)
+	local bambam = Instance.new("BodyThrust")
+	bambam.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+	bambam.Force = Vector3.new(power,0,power)
+	bambam.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position 
+	
+	
+	
+	
+	
+	local plr = game.Players.LocalPlayer
+	local torso = root
+	local flying = true
+	local deb = true
+	local ctrl = {f = 0, b = 0, l = 0, r = 0}
+	local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+	local maxspeed = 120
+	local speed = 15
+	
+	
+	---local bambam = Instance.new("BodyThrust")
+	---bambam.Parent = torso
+	--bambam.Force = Vector3.new(9999999,0,9999999)
+	--bambam.Location = torso.Position
+	
+	
+	---
+	groot = root
+	 
+	function Fly()
+	local bg = Instance.new("BodyGyro", torso)
+	bg.P = 9e4
+	bg.maxTorque = Vector3.new(0, 0, 0)
+	bg.cframe = torso.CFrame
+	local bv = Instance.new("BodyVelocity", torso)
+	bv.velocity = Vector3.new(0,0,0)
+	bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+	repeat wait()
+	
+	if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+	speed = speed+.2
+	if speed > maxspeed then
+	speed = maxspeed
+	end
+	elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+	speed = speed-1
+	if speed < 0 then
+	speed = 0
+	end
+	end
+	if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+	bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+	lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+	elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+	bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+	else
+	bv.velocity = Vector3.new(0,0.1,0)
+	end
+	
+	until not flying
+	ctrl = {f = 0, b = 0, l = 0, r = 0}
+	lastctrl = {f = 0, b = 0, l = 0, r = 0}
+	speed = 0
+	bg:Destroy()
+	bv:Destroy()
+	
+	end
+	mouse.KeyDown:connect(function(key)
+	if key:lower() == "e" then
+	if flying then flying = false
+	else
+	flying = true
+	Fly()
+	end
+	elseif key:lower() == "w" then
+	ctrl.f = 1
+	elseif key:lower() == "s" then
+	ctrl.b = -1
+	elseif key:lower() == "a" then
+	ctrl.l = -1
+	elseif key:lower() == "d" then
+	ctrl.r = 1
+	end
+	end)
+	mouse.KeyUp:connect(function(key)
+	if key:lower() == "w" then
+	ctrl.f = 0
+	elseif key:lower() == "s" then
+	ctrl.b = 0
+	elseif key:lower() == "a" then
+	ctrl.l = 0
+	elseif key:lower() == "d" then
+	ctrl.r = 0
+	elseif key:lower() == "r" then
+	
+	end
+	end)
+	Fly()
+	
+			
+			
+		elseif k == "x" then
+			
+			
+			spawn(function()
+	local message = Instance.new("Message",workspace)
+	message.Text = "Respawning dont spam"
+	wait(1)
+	message:Destroy()
+	end)
+			
+			local saved = groot.Position
+			
+	local ch = game.Players.LocalPlayer.Character
+	local prt=Instance.new("Model", workspace)
+	local z1 =  Instance.new("Part", prt)
+	z1.Name="Torso"
+	z1.CanCollide = false
+	z1.Anchored = true
+	local z2  =Instance.new("Part", prt)
+	z2.Name="Head"
+	z2.Anchored = true
+	z2.CanCollide = false
+	local z3 =Instance.new("Humanoid", prt)
+	z3.Name="Humanoid"
+	z1.Position = Vector3.new(0,9999,0)
+	z2.Position = Vector3.new(0,9991,0)
+	 game.Players.LocalPlayer.Character=prt
+	wait(5)
+	 game.Players.LocalPlayer.Character=ch
+	local poop = nil
+			repeat wait() poop = game.Players.LocalPlayer.Character:FindFirstChild("Head") until poop ~= nil
+			wait(1)
+			game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(saved)
+			
+		end
+		
+		
+	end)
+	end)
+end
+coroutine.wrap(CUPTI_fake_script)()
+local function FUKX_fake_script() -- TextButton_5.Script 
+	local script = Instance.new('Script', TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/pPt6TFNW", true))()
+	end)
+end
+coroutine.wrap(FUKX_fake_script)()
+local function KSQU_fake_script() -- TextButton_6.Script 
+	local script = Instance.new('Script', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/yvmWLNP0", true))()
+	end)
+end
+coroutine.wrap(KSQU_fake_script)()
+local function BDJVI_fake_script() -- TextButton_7.Script 
+	local script = Instance.new('Script', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/VKGHcR8Y", true))()
+	end)
+end
+coroutine.wrap(BDJVI_fake_script)()
+local function URSH_fake_script() -- TextButton_8.Script 
+	local script = Instance.new('Script', TextButton_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/9ETN61cA", true))()
+	end)
+end
+coroutine.wrap(URSH_fake_script)()
+local function ITNL_fake_script() -- TextButton_9.Script 
+	local script = Instance.new('Script', TextButton_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/F3JvpCDM",true))()
+	end)
+end
+coroutine.wrap(ITNL_fake_script)()
+local function CDUB_fake_script() -- TextButton_10.GUI Button 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame.Visible = not script.Parent.Parent.Frame.Visible
+	end)
+end
+coroutine.wrap(CDUB_fake_script)()
