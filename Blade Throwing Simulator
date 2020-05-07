@@ -257,6 +257,26 @@ local args = {
 
 game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
 end)
+b:Button("Collect Chests",function()
+    local args = {
+    [1] = "Collect",
+    [2] = "1",
+}
+
+game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
+local args = {
+    [1] = "Collect",
+    [2] = "2",
+}
+
+game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
+local args = {
+    [1] = "Collect",
+    [2] = "3",
+}
+
+game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
+    end)
 local b = w:CreateFolder("CREDITS")
 b:Label("Credits",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111))
 b:Button("Reallukeisbest#2583",function()
