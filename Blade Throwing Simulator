@@ -3,6 +3,9 @@ loadstring(game:HttpGet("https://pastebin.com/raw/xkrNeNaf"))()
 wait (0.5)
 AS = false
 AT = false
+ABT = false
+ABE = false
+ABR = false
 EF = false
 LG = false
 RK = false
@@ -120,7 +123,60 @@ while AT == true do
 end)
 b:Button("Auto Throw Off",function()
     AT = false
+end)
+
+
+
+b:Button("Auto Buy Tools On",function()
+    ABT = true
+    while ABT == true do
+        local args = {
+    [1] = "BuyBlade",
+    [2] = true,
+}
+
+game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
+        end
+end)
+b:Button("Auto Buy Tools Off",function()
+    ABT = false
     end)
+    
+    
+    b:Button("Auto Buy Energy On",function()
+    ABE = true
+    while ABE == true do
+    local args = {
+    [1] = "BuyEnergy",
+    [2] = true,
+}
+
+game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
+end
+end)
+b:Button("Auto Buy Energy Off",function()
+    ABE = false
+end)
+
+
+    b:Button("Auto Buy Rank On",function()
+    ABR = true
+    while ABR == true do
+    local args = {
+    [1] = "BuyRank",
+}
+
+game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
+end
+end)
+b:Button("Auto Buy Rank Off",function()
+    ABR = false
+    end)
+    
+    
+    
+    
+    
 local b = w:CreateFolder("BUY")
 b:Label("Buy",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111))
 b:Button("Jumps",function()
