@@ -1,0 +1,264 @@
+--Made by Reallukeisbest#2583
+loadstring(game:HttpGet("https://pastebin.com/raw/xkrNeNaf"))()
+wait (0.5)
+AS = false
+AT = false
+EF = false
+LG = false
+RK = false
+
+function autoThrow()
+        
+    local args = {
+    [1] = "Throw",
+    [2] = Vector3.new(game.Players.PlayerAdded:Connect(function(Player)
+	Player.CharacterAdded:Connect(function(Character) end) end)),
+    [3] = false,
+}
+
+game:GetService("ReplicatedStorage").RE:FireServer(unpack(args))
+    end
+function autoSell()
+local args = {
+    [1] = "SellPower",
+    [2] = workspace.Ignore.Rings["21Sell"].Collider,
+}
+game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
+end
+local library = loadstring(game:HttpGet(('https://pastebin.com/raw/FsJak6AT')))() -- load the library
+
+local w = library:CreateWindow("BLADE SIMULATOR") 
+local b = w:CreateFolder("ISLAND TELEPORTS")-- GUI NAME
+b:Button("Island 2",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(171.90184, 601.374756, -600.188293, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+b:Button("Island 3",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(156.397232, 1824.50708, -656.470215, -0.618958116, 0, -0.785424471, 0, 1, 0, 0.785424471, 0, -0.618958116)
+end)
+b:Button("Island 4",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(132.379227, 3379.30786, -529.080811, 0.490766943, -0, -0.871290982, 0, 1, -0, 0.871290982, 0, 0.490766943)
+end)
+b:Button("Island 5",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(196.204437, 5347.6084, -531.11676, 0.999991059, 0, 0.00422977004, 0, 1, 0, -0.00422977004, 0, 0.999991059)
+end)
+b:Button("Island 6",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(124.168968, 8548.93848, -476.930298, -0.181015134, 0.0461946577, -0.982394814, 0.0615280047, 0.997471452, 0.0355665088, 0.981553793, -0.0540067181, -0.183399677)
+end)
+b:Button("Island 7",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(135.028641, 11484.1543, -448.338928, -0.868303537, 0.0710885674, -0.490912825, 0.061561361, 0.997469783, 0.0355557054, 0.492198318, 0.000651884824, -0.870482802)
+end)
+b:Button("Island 8",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(137.72348, 13536.6318, -427.435211, 0.19491905, 0.0228861161, -0.980552316, 0.0615496002, 0.997471929, 0.0355161577, 0.978886247, -0.0672753751, 0.193017662)
+end)
+b:Button("Island 9",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(158.571289, 15558.4551, -446.680847, -0.07302773, 0.0399701335, -0.996528625, 0.0615686662, 0.997471452, 0.0354960673, 0.995427608, -0.0587627403, -0.0753040314)
+end)
+b:Button("Island 10",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(127.976624, 16753.8262, -440.31134, -0.403251171, 0.0574373677, -0.913284957, 0.0615779832, 0.997469246, 0.0355426967, 0.913015068, -0.0419056043, -0.405767441)
+end)
+b:Button("Island 11",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(150.43573, 20590.2773, -447.389984, 0.500017405, 1.63465738e-05, -0.866015375, 0.0615775064, 0.997468233, 0.0355722718, 0.863823354, -0.0711138248, 0.498750448)
+end)
+b:Button("Island 12",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(177.481522, 24546.8301, -441.344147, 0.416201711, 0.00668515824, -0.909247756, 0.061561428, 0.997471333, 0.0355131179, 0.907185912, -0.0707552135, 0.414737701)
+end)
+b:Button("Island 13",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(238.76239, 27709.7871, -487.825775, -0.254905343, 0.0501298755, -0.965665638, 0.0615966916, 0.997468829, 0.0355212539, 0.96500212, -0.0504272506, -0.257348061)
+end)
+b:Button("Island 14",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(204.074844, 31405.7246, -489.361267, -0.148611069, 0.0443813168, -0.987899363, 0.0615907945, 0.997468352, 0.0355460197, 0.986975849, -0.055562973, -0.150968313)
+end)
+b:Button("Island 15",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(244.967987, 35143.6641, -472.712738, 0.0943479538, 0.0296466984, -0.995097816, 0.0615399145, 0.997471273, 0.0355521888, 0.993635476, -0.0645925105, 0.0922849178)
+end)
+b:Button("Island 16",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(202.833405, 39185.707, -523.244751, 0.0452950597, 0.0327710174, -0.998435974, 0.0615704022, 0.997470081, 0.0355325192, 0.997074485, -0.0630835518, 0.0431627035)
+end)
+b:Button("Island 17",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(191.992798, 43094.457, -480.264587, 0.0943479538, 0.0296466984, -0.995097816, 0.0615399145, 0.997471273, 0.0355521888, 0.993635476, -0.0645925105, 0.0922849178)
+end)
+b:Button("Island 18",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(159.612747, 46940.2188, -465.194611, 0.0943479538, 0.0296466984, -0.995097816, 0.0615399145, 0.997471273, 0.0355521888, 0.993635476, -0.0645925105, 0.0922849178)
+end)
+b:Button("Island 19",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(253.50824, 49805.4766, -454.523651, 0.0943479538, 0.0296466984, -0.995097816, 0.0615399145, 0.997471273, 0.0355521888, 0.993635476, -0.0645925105, 0.0922849178)
+end)
+b:Button("Island 20",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(235.72821, 53022.3516, -436.553589, 0.0943479538, 0.0296466984, -0.995097816, 0.0615399145, 0.997471273, 0.0355521888, 0.993635476, -0.0645925105, 0.0922849178)
+end)
+b:Button("Island 21",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(158.512146, 55745.7227, -458.79892, -0.549601436, 0.0636311918, -0.833000422, 0.0615887381, 0.997467995, 0.0355592035, 0.833153963, -0.0317600556, -0.552128792)
+end)
+local b = w:CreateFolder("OTHER TELEPORTS")
+b:Label("Other Teleports",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111))
+b:Button("King of the hill",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(356.705139, -26.3356476, -827.025024, 0.996191859, 0, 0.0871884301, 0, 1, 0, -0.0871884301, 0, 0.996191859)
+end)
+b:Button("Wheel",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(617.197632, -46.7300072, -743.532166, 0, 0, -1, -1, 0, 0, 0, 1, 0)
+end)
+local b = w:CreateFolder("AUTO") -- RANDOM NAME FOLDER
+
+b:Label("Auto",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111)) --BgColor,TextColor -- You can edit the Function's test
+
+b:Button("Auto Sell On",function()-- here you have the button, that cool ! put the remote you have copied in that
+    AS = true
+    while AS == true do
+    autoSell()
+    wait(0.5)
+end
+end)
+b:Button("Auto Sell Off",function()
+    AS = false
+    end)
+b:Button("Auto Throw On (Dont run for too long or else u will get kicked)",function()
+    AT = true
+while AT == true do
+    autoThrow()
+    wait(0.5)
+    end
+end)
+b:Button("Auto Throw Off",function()
+    AT = false
+    end)
+local b = w:CreateFolder("BUY")
+b:Label("Buy",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111))
+b:Button("Jumps",function()
+local args = {
+    [1] = "BuyJump",
+}
+
+game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
+end)
+b:Button("Rank",function()
+local args = {
+    [1] = "BuyRank",
+}
+
+game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
+end)
+b:Button("Blade",function()
+local args = {
+    [1] = "BuyBlade",
+    [2] = true,
+}
+
+game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
+end)
+b:Button("Energy",function()
+local args = {
+    [1] = "BuyEnergy",
+    [2] = true,
+}
+
+game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
+end)
+b:Button("Auras",function()
+local args = {
+    [1] = "BuyAura",
+    [2] = true,
+}
+
+game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
+end)
+local b = w:CreateFolder("BOSS")
+b:Label("Boss",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111))
+b:Button("Evil Fox On",function()
+    EF = true
+while EF == true do
+    wait(0.5)
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(108.209473, -72.7685318, -830.829224, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local args = {
+    [1] = "HitBoss",
+    [2] = workspace.Boss["Evil Fox"],
+}
+
+game:GetService("ReplicatedStorage").RE:FireServer(unpack(args))
+end
+end)
+b:Button("Evil Fox Off",function()
+EF = false
+end)
+
+
+b:Button("Rhino King On",function()
+    RK = true
+while RK == true do
+    wait(0.5)
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(108.209473, -72.7685318, -830.829224, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local args = {
+    [1] = "HitBoss",
+    [2] = workspace.Boss["Rhino King"],
+}
+
+game:GetService("ReplicatedStorage").RE:FireServer(unpack(args))
+end
+end)
+b:Button("Rhino King Off",function()
+RK = false
+end)
+
+
+
+
+
+
+b:Button("Lava Golem On",function()
+    LG = true
+while LG == true do
+    wait(0.5)
+local args = {
+    [1] = "HitBoss",
+    [2] = workspace.Boss["Lava Golem"],
+}
+
+game:GetService("ReplicatedStorage").RE:FireServer(unpack(args))
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(199.58934, 55759.5195, -793.068298, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end
+end)
+b:Button("Lava Golem Off",function()
+LG = false
+end)
+
+
+local b = w:CreateFolder("QUESTS")
+b:Label("Quests",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111))
+b:Button("Boss Quest",function()
+local args = {
+    [1] = "QuestBoss",
+}
+
+game:GetService("ReplicatedStorage").RE:FireServer(unpack(args))
+
+    end)
+b:Button("Hours Quest",function()
+local args = {
+    [1] = "QuestHours",
+}
+
+game:GetService("ReplicatedStorage").RE:FireServer(unpack(args))
+end)
+local b = w:CreateFolder("OTHER")
+b:Label("Other",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111))
+b:Button("   Sell Without Teleporting",function()
+    autoSell()
+end)
+b:Button("Throw",function()
+    autoThrow()
+end)
+b:Button("Rejoin",function()
+    game:GetService("TeleportService"):Teleport(game.PlaceId, game.Players.LocalPlayer)
+end)
+b:Button("Spin Wheel",function()
+local args = {
+    [1] = "Wheel",
+    [2] = "Wheel1",
+}
+
+game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
+end)
+local b = w:CreateFolder("CREDITS")
+b:Label("Credits",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111))
+b:Button("Reallukeisbest#2583",function()
+    setclipboard("Reallukeisbest#2583")
+    end)
