@@ -198,6 +198,7 @@ b:Button("Auto Buy Rank Off",function()
         CAQ = true
         while CAQ == true do
         autoQuests()
+        wait(0.3)
         end
     end)
     
