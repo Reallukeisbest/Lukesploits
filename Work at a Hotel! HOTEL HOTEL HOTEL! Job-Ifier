@@ -1,0 +1,73 @@
+local library = loadstring(game:HttpGet(('https://pastebin.com/raw/FsJak6AT')))()
+local w = library:CreateWindow("Work at a Hotel! HOTEL HOTEL HOTEL! Job-Ifier") 
+local b = w:CreateFolder("The Stuff")
+b:Button("House Keeper",function()
+local args = {
+    [1] = "House Keeper",
+    [2] = {
+        [1] = "10",
+        [2] = "Work at Restaurant",
+        [3] = "Report to an MR Or HR",
+        [4] = "Yes",
+        [5] = "No",
+        [6] = "No",
+    },
+}
+
+game:GetService("ReplicatedStorage").SendApplication:InvokeServer(unpack(args))
+
+end)
+b:Button("Receptionist",function()
+local args = {
+    [1] = "Receptionist",
+    [2] = {
+        [1] = "10",
+        [2] = "Work at reception",
+        [3] = "Report to an MR Or HR",
+        [4] = "Yes",
+        [5] = "No",
+        [6] = "No",
+        [7] = "Hello! Welcome to HOTEL HOTEL HOTEL, would you like a room?",
+    },
+}
+
+game:GetService("ReplicatedStorage").SendApplication:InvokeServer(unpack(args))
+
+end)
+b:Button("Food Server",function()
+local args = {
+    [1] = "Food Server",
+    [2] = {
+        [1] = "10",
+        [2] = "Clear Rooms",
+        [3] = "Report to an MR Or HR",
+        [4] = "Yes",
+        [5] = "No",
+        [6] = "No",
+    },
+}
+
+game:GetService("ReplicatedStorage").SendApplication:InvokeServer(unpack(args))
+
+end)
+b:Button("Security",function()
+local args = {
+    [1] = "Security",
+    [2] = {
+        [1] = "I accept",
+        [2] = "I accept",
+        [3] = "10",
+        [4] = "Protect the hotel",
+        [5] = "Report to an MR Or HR",
+        [6] = "Yes",
+        [7] = "No",
+        [8] = "No",
+        [9] = "I accept",
+        [10] = "For stop someone with 3 warnings running and cuff him while a HR or MR comes.",
+        [11] = "I accept",
+        [12] = "For prevent someone with 3 warnings escape while a HR or MR comes.",
+    },
+}
+
+game:GetService("ReplicatedStorage").SendApplication:InvokeServer(unpack(args))
+end)
