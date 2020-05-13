@@ -188,6 +188,7 @@ end)
 }
 
 game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
+game:GetService("CoreGui").PurchasePromptApp:Destroy()
 end
 end)
 b:Button("Auto Buy Rank Off",function()
@@ -369,6 +370,9 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
+end)
+b:Button("Inf Jump",function()
+    game.Players.LocalPlayer.Data.GP["InfiniteJump"].Value = true
     end)
 local b = w:CreateFolder("CREDITS")
 b:Label("Credits",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111))
