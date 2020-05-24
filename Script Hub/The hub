@@ -59,30 +59,37 @@ TextButton_2.TextWrapped = true
 
 -- Scripts:
 
-local function EAKO_fake_script() -- TextButton.Script 
+local function IATTZT_fake_script() -- TextButton.Script 
 	local script = Instance.new('Script', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local frame = script.Parent.Parent
 		frame:TweenPosition(UDim2.new(-0.5, 0,0.319, 0))
-		ScreenGui:Destroy()
 		if game.PlaceId == 4919350725 then
 			loadstring(game:HttpGet(('https://raw.githubusercontent.com/Reallukeisbest/Lukesploits/master/Ducky%20Simulator')))() 
+		    wait(5)
+		ScreenGui:Destroy()
 		else
 			if game.PlaceId == 4704006941 then
 			loadstring(game:HttpGet(('https://raw.githubusercontent.com/Reallukeisbest/Lukesploits/master/Blade%20Throwing%20Simulator')))() 
+				    wait(5)
+		ScreenGui:Destroy()
 			else
 					if game.PlaceId == 4152904699 then
 			loadstring(game:HttpGet(('https://raw.githubusercontent.com/Reallukeisbest/Lukesploits/master/Work%20at%20a%20Hotel!%20HOTEL%20HOTEL%20HOTEL!%20Job-Ifier')))()
+					    wait(5)
+		ScreenGui:Destroy()
 			else
 			loadstring(game:HttpGet(('https://raw.githubusercontent.com/Reallukeisbest/Lukesploits/master/Script%20Hub/Not%20Supported')))()
+			    wait(5)
+		ScreenGui:Destroy()
 		end		
 		end
 		end
 		end)
 end
-coroutine.wrap(EAKO_fake_script)()
-local function VYKTMMF_fake_script() -- Frame.Dragify 
+coroutine.wrap(IATTZT_fake_script)()
+local function LPBXT_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -123,14 +130,15 @@ local function VYKTMMF_fake_script() -- Frame.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(VYKTMMF_fake_script)()
-local function RCHYOTT_fake_script() -- TextButton_2.Script 
+coroutine.wrap(LPBXT_fake_script)()
+local function OBIQPQC_fake_script() -- TextButton_2.Script 
 	local script = Instance.new('Script', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local frame = script.Parent.Parent
 		frame:TweenPosition(UDim2.new(-0.5, 0,0.319, 0))
+		wait(5)
 		ScreenGui:Destroy()
 		end)
 end
-coroutine.wrap(RCHYOTT_fake_script)()
+coroutine.wrap(OBIQPQC_fake_script)()
