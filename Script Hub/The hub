@@ -59,7 +59,7 @@ TextButton_2.TextWrapped = true
 
 -- Scripts:
 
-local function QOYS_fake_script() -- TextButton.Script 
+local function EAKO_fake_script() -- TextButton.Script 
 	local script = Instance.new('Script', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -81,8 +81,8 @@ local function QOYS_fake_script() -- TextButton.Script
 		end
 		end)
 end
-coroutine.wrap(QOYS_fake_script)()
-local function DSYMMG_fake_script() -- Frame.Dragify 
+coroutine.wrap(EAKO_fake_script)()
+local function VYKTMMF_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -123,8 +123,8 @@ local function DSYMMG_fake_script() -- Frame.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(DSYMMG_fake_script)()
-local function QMWJ_fake_script() -- TextButton_2.Script 
+coroutine.wrap(VYKTMMF_fake_script)()
+local function RCHYOTT_fake_script() -- TextButton_2.Script 
 	local script = Instance.new('Script', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -133,4 +133,4 @@ local function QMWJ_fake_script() -- TextButton_2.Script
 		ScreenGui:Destroy()
 		end)
 end
-coroutine.wrap(QMWJ_fake_script)()
+coroutine.wrap(RCHYOTT_fake_script)()
