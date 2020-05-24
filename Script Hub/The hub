@@ -75,11 +75,6 @@ local function IATTZT_fake_script() -- TextButton.Script
 					    wait(5)
 		ScreenGui:Destroy()
 			else
-								if game.PlaceId == 2163715471 then
-			game.Players.LocalPlayer:Kick()					   
-			wait(5)
-		ScreenGui:Destroy()
-		else
 			loadstring(game:HttpGet(('https://raw.githubusercontent.com/Reallukeisbest/Lukesploits/master/Script%20Hub/Not%20Supported')))()
 			    wait(5)
 		ScreenGui:Destroy()
