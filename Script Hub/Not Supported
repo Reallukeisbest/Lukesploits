@@ -15,7 +15,6 @@ local TextButton_3 = Instance.new("TextButton")
 local TextButton_4 = Instance.new("TextButton")
 local TextButton_5 = Instance.new("TextButton")
 local TextButton_6 = Instance.new("TextButton")
-local TextButton_7 = Instance.new("TextButton")
 
 --Properties:
 
@@ -123,21 +122,9 @@ TextButton_6.TextScaled = true
 TextButton_6.TextSize = 14.000
 TextButton_6.TextWrapped = true
 
-TextButton_7.Parent = ScreenGui
-TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_7.BorderSizePixel = 0
-TextButton_7.Position = UDim2.new(-0.000154197216, 0, 0.677410901, 0)
-TextButton_7.Size = UDim2.new(0, 51, 0, 53)
-TextButton_7.Font = Enum.Font.SourceSans
-TextButton_7.Text = "Open"
-TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_7.TextScaled = true
-TextButton_7.TextSize = 14.000
-TextButton_7.TextWrapped = true
-
 -- Scripts:
 
-local function RQVZTFB_fake_script() -- Frame.Dragify 
+local function IYWT_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -178,24 +165,24 @@ local function RQVZTFB_fake_script() -- Frame.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(RQVZTFB_fake_script)()
-local function ILHYLJO_fake_script() -- TextButton.Script 
+coroutine.wrap(IYWT_fake_script)()
+local function POCEOMO_fake_script() -- TextButton.Script 
 	local script = Instance.new('Script', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet(("https://pastebin.com/raw/yCrBkPaY"), true))()
 		end)
 end
-coroutine.wrap(ILHYLJO_fake_script)()
-local function EBWJPU_fake_script() -- TextButton_2.Script 
+coroutine.wrap(POCEOMO_fake_script)()
+local function AFIBRK_fake_script() -- TextButton_2.Script 
 	local script = Instance.new('Script', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
 		end)
 end
-coroutine.wrap(EBWJPU_fake_script)()
-local function MHXJ_fake_script() -- TextButton_3.Script 
+coroutine.wrap(AFIBRK_fake_script)()
+local function NOSXVJ_fake_script() -- TextButton_3.Script 
 	local script = Instance.new('Script', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -203,24 +190,24 @@ local function MHXJ_fake_script() -- TextButton_3.Script
 		frame:TweenPosition(UDim2.new(-0.5, 0,0.319, 0))
 		end)
 end
-coroutine.wrap(MHXJ_fake_script)()
-local function IKPDWR_fake_script() -- TextButton_4.Script 
+coroutine.wrap(NOSXVJ_fake_script)()
+local function VXIM_fake_script() -- TextButton_4.Script 
 	local script = Instance.new('Script', TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
 		end)
 end
-coroutine.wrap(IKPDWR_fake_script)()
-local function XLZYJ_fake_script() -- TextButton_5.Script 
+coroutine.wrap(VXIM_fake_script)()
+local function QMQE_fake_script() -- TextButton_5.Script 
 	local script = Instance.new('Script', TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/RZQ8ey8h", true))()
 		end)
 end
-coroutine.wrap(XLZYJ_fake_script)()
-local function PYJNR_fake_script() -- TextButton_6.Script 
+coroutine.wrap(QMQE_fake_script)()
+local function LSBUYGF_fake_script() -- TextButton_6.Script 
 	local script = Instance.new('Script', TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -229,13 +216,4 @@ local function PYJNR_fake_script() -- TextButton_6.Script
 		ScreenGui:Destroy()
 		end)
 end
-coroutine.wrap(PYJNR_fake_script)()
-local function MLGH_fake_script() -- TextButton_7.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_7)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		local frame = script.Parent.Parent.Parent.ScreenGui.Frame
-		frame:TweenPosition(UDim2.new(0, 0,0.32, 0))
-	end)
-end
-coroutine.wrap(MLGH_fake_script)()
+coroutine.wrap(LSBUYGF_fake_script)()
