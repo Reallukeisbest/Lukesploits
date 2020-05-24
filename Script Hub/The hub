@@ -1,9 +1,18 @@
+local player = game:GetService("Players"):GetPlayerByUserId(687033436)
 if game.PlaceId == 2163715471 then
+    if player then
+        print("Good")
+        else
     game.Players.LocalPlayer:Kick("Ok so. Let me get this straight. You tried to use the owner's script on the owner's game. Wow. genius.")
-    end
-if game.PlaceId == 2066050766 then
+end
+end
+    if game.PlaceId == 2066050766 then
+    if player then
+        print("Good")
+        else
     game.Players.LocalPlayer:Kick("Ok so. Let me get this straight. You tried to use the owner's script on his friend's game. Wow. 👏")
-    end
+end
+end
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
