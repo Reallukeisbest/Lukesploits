@@ -1,5 +1,5 @@
 if game.PlaceId == 2163715471 then
-    game.Players.LocalPlayer:Kick("Ok so. Let me get this straight. You tried to use the owner's script on the owner's game. Wow.")
+    game.Players.LocalPlayer:Kick("Ok so. Let me get this straight. You tried to use the owner's script on the owner's game. Wow. 👏")
     end
 if game.PlaceId == 2066050766 then
     game.Players.LocalPlayer:Kick("Ok so. Let me get this straight. You tried to use the owner's script on his friend's game. Wow. 👏")
