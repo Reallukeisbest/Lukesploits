@@ -1,3 +1,7 @@
+if game.PlaceId == 2163715471 then
+    game.Players.LocalPlayer:Kick()
+    end
+
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
