@@ -14,6 +14,8 @@ local TextButton_2 = Instance.new("TextButton")
 local TextButton_3 = Instance.new("TextButton")
 local TextButton_4 = Instance.new("TextButton")
 local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
 
 --Properties:
 
@@ -41,7 +43,7 @@ TextLabel_2.Parent = Frame
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(0, 0, 0.806949794, 0)
-TextLabel_2.Size = UDim2.new(0, 322, 0, 50)
+TextLabel_2.Size = UDim2.new(0, 271, 0, 48)
 TextLabel_2.Font = Enum.Font.SourceSans
 TextLabel_2.Text = "This game is not supported. Take these scripts!"
 TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -109,9 +111,33 @@ TextButton_5.TextScaled = true
 TextButton_5.TextSize = 14.000
 TextButton_5.TextWrapped = true
 
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.728494644, 0, 0.806949794, 0)
+TextButton_6.Size = UDim2.new(0, 50, 0, 50)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Destroy"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+TextButton_7.Parent = ScreenGui
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(-0.000154197216, 0, 0.677410901, 0)
+TextButton_7.Size = UDim2.new(0, 51, 0, 53)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Open"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
 -- Scripts:
 
-local function XGAOFX_fake_script() -- Frame.Dragify 
+local function RQVZTFB_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -152,24 +178,24 @@ local function XGAOFX_fake_script() -- Frame.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(XGAOFX_fake_script)()
-local function BYDAL_fake_script() -- TextButton.Script 
+coroutine.wrap(RQVZTFB_fake_script)()
+local function ILHYLJO_fake_script() -- TextButton.Script 
 	local script = Instance.new('Script', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet(("https://pastebin.com/raw/yCrBkPaY"), true))()
 		end)
 end
-coroutine.wrap(BYDAL_fake_script)()
-local function GHTWK_fake_script() -- TextButton_2.Script 
+coroutine.wrap(ILHYLJO_fake_script)()
+local function EBWJPU_fake_script() -- TextButton_2.Script 
 	local script = Instance.new('Script', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
 		end)
 end
-coroutine.wrap(GHTWK_fake_script)()
-local function WXLWSFX_fake_script() -- TextButton_3.Script 
+coroutine.wrap(EBWJPU_fake_script)()
+local function MHXJ_fake_script() -- TextButton_3.Script 
 	local script = Instance.new('Script', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -177,20 +203,39 @@ local function WXLWSFX_fake_script() -- TextButton_3.Script
 		frame:TweenPosition(UDim2.new(-0.5, 0,0.319, 0))
 		end)
 end
-coroutine.wrap(WXLWSFX_fake_script)()
-local function WULP_fake_script() -- TextButton_4.Script 
+coroutine.wrap(MHXJ_fake_script)()
+local function IKPDWR_fake_script() -- TextButton_4.Script 
 	local script = Instance.new('Script', TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
 		end)
 end
-coroutine.wrap(WULP_fake_script)()
-local function ZGIBNTQ_fake_script() -- TextButton_5.Script 
+coroutine.wrap(IKPDWR_fake_script)()
+local function XLZYJ_fake_script() -- TextButton_5.Script 
 	local script = Instance.new('Script', TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/RZQ8ey8h", true))()
 		end)
 end
-coroutine.wrap(ZGIBNTQ_fake_script)()
+coroutine.wrap(XLZYJ_fake_script)()
+local function PYJNR_fake_script() -- TextButton_6.Script 
+	local script = Instance.new('Script', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local frame = script.Parent.Parent
+		frame:TweenPosition(UDim2.new(-0.5, 0,0.319, 0))
+		ScreenGui:Destroy()
+		end)
+end
+coroutine.wrap(PYJNR_fake_script)()
+local function MLGH_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local frame = script.Parent.Parent.Parent.ScreenGui.Frame
+		frame:TweenPosition(UDim2.new(0, 0,0.32, 0))
+	end)
+end
+coroutine.wrap(MLGH_fake_script)()
