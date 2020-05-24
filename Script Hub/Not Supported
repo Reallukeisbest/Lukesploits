@@ -12,7 +12,7 @@ local TextButton_5 = Instance.new("TextButton")
 local TextButton_6 = Instance.new("TextButton")
 local TextButton_7 = Instance.new("TextButton")
 
---Properties:
+--Properties: 
 
 ScreenGui.Parent = game:GetService('CoreGui')
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
