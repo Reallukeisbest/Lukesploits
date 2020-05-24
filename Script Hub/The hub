@@ -10,7 +10,6 @@ local Frame = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
 local TextButton_2 = Instance.new("TextButton")
-local TextButton_3 = Instance.new("TextButton")
 
 --Properties:
 
@@ -49,30 +48,18 @@ TextLabel.TextWrapped = true
 TextButton_2.Parent = Frame
 TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.BorderSizePixel = 0
-TextButton_2.Position = UDim2.new(0.865591407, 0, 0.803088784, 0)
+TextButton_2.Position = UDim2.new(0.865591407, 0, 0.806949794, 0)
 TextButton_2.Size = UDim2.new(0, 50, 0, 50)
 TextButton_2.Font = Enum.Font.SourceSans
-TextButton_2.Text = "Close"
+TextButton_2.Text = "Destroy"
 TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_2.TextScaled = true
 TextButton_2.TextSize = 14.000
 TextButton_2.TextWrapped = true
 
-TextButton_3.Parent = Frame
-TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_3.BorderSizePixel = 0
-TextButton_3.Position = UDim2.new(0.728494644, 0, 0.806949794, 0)
-TextButton_3.Size = UDim2.new(0, 50, 0, 50)
-TextButton_3.Font = Enum.Font.SourceSans
-TextButton_3.Text = "Destroy"
-TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_3.TextScaled = true
-TextButton_3.TextSize = 14.000
-TextButton_3.TextWrapped = true
-
 -- Scripts:
 
-local function EKIPI_fake_script() -- TextButton.Script 
+local function QOYS_fake_script() -- TextButton.Script 
 	local script = Instance.new('Script', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -94,8 +81,8 @@ local function EKIPI_fake_script() -- TextButton.Script
 		end
 		end)
 end
-coroutine.wrap(EKIPI_fake_script)()
-local function NOMYFMZ_fake_script() -- Frame.Dragify 
+coroutine.wrap(QOYS_fake_script)()
+local function DSYMMG_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -136,18 +123,9 @@ local function NOMYFMZ_fake_script() -- Frame.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(NOMYFMZ_fake_script)()
-local function ADVSK_fake_script() -- TextButton_2.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_2)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		local frame = script.Parent.Parent
-		frame:TweenPosition(UDim2.new(-0.5, 0,0.319, 0))
-		end)
-end
-coroutine.wrap(ADVSK_fake_script)()
-local function EDULVD_fake_script() -- TextButton_3.Script 
-	local script = Instance.new('Script', TextButton_3)
+coroutine.wrap(DSYMMG_fake_script)()
+local function QMWJ_fake_script() -- TextButton_2.Script 
+	local script = Instance.new('Script', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local frame = script.Parent.Parent
@@ -155,4 +133,4 @@ local function EDULVD_fake_script() -- TextButton_3.Script
 		ScreenGui:Destroy()
 		end)
 end
-coroutine.wrap(EDULVD_fake_script)()
+coroutine.wrap(QMWJ_fake_script)()
