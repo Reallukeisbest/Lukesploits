@@ -374,6 +374,7 @@ end)
 b:Button("Inf Jump",function()
     game.Players.LocalPlayer.Data.GP["InfiniteJump"].Value = true
     end)
+    b:DestroyGUI()
 local b = w:CreateFolder("CREDITS")
 b:Label("Credits",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111))
 b:Button("Reallukeisbest#2583",function()
