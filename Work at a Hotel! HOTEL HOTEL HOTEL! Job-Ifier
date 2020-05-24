@@ -71,6 +71,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").SendApplication:InvokeServer(unpack(args))
 end)
+b:DestroyGUI()
 local b = w:CreateFolder("Credits")
 b:Button("Reallukeisbest#2583",function()
     setclipboard("Reallukeisbest#2583")
