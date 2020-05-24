@@ -111,7 +111,7 @@ TextButton_5.TextWrapped = true
 
 -- Scripts:
 
-local function MAJX_fake_script() -- Frame.Dragify 
+local function EFDJRT_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -152,46 +152,47 @@ local function MAJX_fake_script() -- Frame.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(MAJX_fake_script)()
-local function RJIR_fake_script() -- TextButton.Script 
+coroutine.wrap(EFDJRT_fake_script)()
+local function DTUJN_fake_script() -- TextButton.Script 
 	local script = Instance.new('Script', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet(("https://pastebin.com/raw/yCrBkPaY"), true))()
 		end)
 end
-coroutine.wrap(RJIR_fake_script)()
-local function PLPD_fake_script() -- TextButton_2.Script 
+coroutine.wrap(DTUJN_fake_script)()
+local function MTJRJ_fake_script() -- TextButton_2.Script 
 	local script = Instance.new('Script', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
 		end)
 end
-coroutine.wrap(PLPD_fake_script)()
-local function YGBKX_fake_script() -- TextButton_3.Script 
+coroutine.wrap(MTJRJ_fake_script)()
+local function CVFQMKG_fake_script() -- TextButton_3.Script 
 	local script = Instance.new('Script', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
 		end)
 end
-coroutine.wrap(YGBKX_fake_script)()
-local function YFCKT_fake_script() -- TextButton_4.Script 
+coroutine.wrap(CVFQMKG_fake_script)()
+local function ZMGPGAW_fake_script() -- TextButton_4.Script 
 	local script = Instance.new('Script', TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/RZQ8ey8h", true))()
 		end)
 end
-coroutine.wrap(YFCKT_fake_script)()
-local function QBEDSZ_fake_script() -- TextButton_5.Script 
+coroutine.wrap(ZMGPGAW_fake_script)()
+local function LLKBGW_fake_script() -- TextButton_5.Script 
 	local script = Instance.new('Script', TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local frame = script.Parent.Parent
 		frame:TweenPosition(UDim2.new(-0.5, 0,0.319, 0))
+		wait(5)
 		ScreenGui:Destroy()
 		end)
 end
-coroutine.wrap(QBEDSZ_fake_script)()
+coroutine.wrap(LLKBGW_fake_script)()
