@@ -7,6 +7,109 @@ end
 function BuyAllEnergy()
 game:GetService("ReplicatedStorage").Events["Shop Events"].Energy["Buy All"]:InvokeServer()
     end
+function BuyAllRanks()
+local args = {
+  [1] = "Duck King",
+}
+
+game:GetService("ReplicatedStorage").Events["Shop Events"].Ranks["Equip/Buy"]:FireServer(unpack(args))
+wait(0.1)
+local args = {
+  [1] = "Duck God",
+}
+
+game:GetService("ReplicatedStorage").Events["Shop Events"].Ranks["Equip/Buy"]:FireServer(unpack(args))
+wait(0.1)
+local args = {
+  [1] = "Duck Elementilist",
+}
+
+game:GetService("ReplicatedStorage").Events["Shop Events"].Ranks["Equip/Buy"]:FireServer(unpack(args))
+wait(0.1)
+local args = {
+  [1] = "Omega",
+}
+
+game:GetService("ReplicatedStorage").Events["Shop Events"].Ranks["Equip/Buy"]:FireServer(unpack(args))
+wait(0.1)
+local args = {
+  [1] = "Duck Legend",
+}
+
+game:GetService("ReplicatedStorage").Events["Shop Events"].Ranks["Equip/Buy"]:FireServer(unpack(args))
+wait(0.1)
+local args = {
+  [1] = "Demon",
+}
+
+game:GetService("ReplicatedStorage").Events["Shop Events"].Ranks["Equip/Buy"]:FireServer(unpack(args))
+wait(0.1)
+local args = {
+  [1] = "Knight",
+}
+
+game:GetService("ReplicatedStorage").Events["Shop Events"].Ranks["Equip/Buy"]:FireServer(unpack(args))
+wait(0.1)
+local args = {
+  [1] = "Duck Champion",
+}
+
+game:GetService("ReplicatedStorage").Events["Shop Events"].Ranks["Equip/Buy"]:FireServer(unpack(args))
+wait(0.1)
+local args = {
+  [1] = "Duck Fanatic",
+}
+
+game:GetService("ReplicatedStorage").Events["Shop Events"].Ranks["Equip/Buy"]:FireServer(unpack(args))
+wait(0.1)
+local args = {
+  [1] = "Duck Master",
+}
+
+game:GetService("ReplicatedStorage").Events["Shop Events"].Ranks["Equip/Buy"]:FireServer(unpack(args))
+wait(0.1)
+local args = {
+  [1] = "Duck Guardian",
+}
+
+game:GetService("ReplicatedStorage").Events["Shop Events"].Ranks["Equip/Buy"]:FireServer(unpack(args))
+wait(0.1)
+local args = {
+  [1] = "Beast",
+}
+
+game:GetService("ReplicatedStorage").Events["Shop Events"].Ranks["Equip/Buy"]:FireServer(unpack(args))
+wait(0.1)
+local args = {
+  [1] = "Duck Scientist",
+}
+
+game:GetService("ReplicatedStorage").Events["Shop Events"].Ranks["Equip/Buy"]:FireServer(unpack(args))
+wait(0.1)
+local args = {
+  [1] = "Colossus",
+}
+
+game:GetService("ReplicatedStorage").Events["Shop Events"].Ranks["Equip/Buy"]:FireServer(unpack(args))
+wait(0.1)
+local args = {
+  [1] = "Giant",
+}
+
+game:GetService("ReplicatedStorage").Events["Shop Events"].Ranks["Equip/Buy"]:FireServer(unpack(args))
+wait(0.1)
+local args = {
+  [1] = "Wizard",
+}
+
+game:GetService("ReplicatedStorage").Events["Shop Events"].Ranks["Equip/Buy"]:FireServer(unpack(args))
+wait(0.1)
+local args = {
+  [1] = "Cyborg",
+}
+
+game:GetService("ReplicatedStorage").Events["Shop Events"].Ranks["Equip/Buy"]:FireServer(unpack(args))
+end
 local library = loadstring(game:HttpGet(('https://pastebin.com/raw/FsJak6AT')))() -- load the library
 local w = library:CreateWindow("Ducky Simulator") 
 local b = w:CreateFolder("Functions")
@@ -25,6 +128,7 @@ b:Button("FULL AUTOFARM ON",function()
         Swing()
         BuyAllDucks()
         BuyAllEnergy()
+        BuyAllRanks()
         game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21.6398182, 10.358593, -50.9735069)
         wait(0.2)
         end
