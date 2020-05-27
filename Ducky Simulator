@@ -147,6 +147,25 @@ end)
 b:Button("Collect Daily Reward",function()
 game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-153.217896, 9.84791946, 154.519745)
 end)
+b:Button("Pick Up Gems On",function()
+AG = true
+while AG == true do
+local plr = game.Players.LocalPlayer;
+local ok = {
+  game:GetService("Workspace")["Spawned Coins"].Candy.Gem;
+  game:GetService("Workspace")["Spawned Coins"].Map.Gem;
+  game:GetService("Workspace")["Spawned Coins"].Lego.Gem;
+};
+
+for _,v in pairs(ok) do
+plr.Character.HumanoidRootPart.CFrame = v.CFrame;
+wait()
+end
+end
+end)
+b:Button("Pick Up Gems Off",function()
+AG = false
+end)
 b:DestroyGUI()
 local b = w:CreateFolder("Credits")
 b:Button("Reallukeisbest#2583",function()
