@@ -157,6 +157,7 @@ local ok = {
 
 for _,v in pairs(ok) do
 plr.Character.HumanoidRootPart.CFrame = v.CFrame;
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(25.5843048, 10.0596476, -439.06955)
 wait()
 end
 end
