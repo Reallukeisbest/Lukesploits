@@ -1,3 +1,8 @@
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Reallukeisbest#2583";
+		Text = "Sorry! This This game is not supported. Take these scripts!";
+	})
+
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
