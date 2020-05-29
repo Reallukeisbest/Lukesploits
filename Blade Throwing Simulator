@@ -1,3 +1,8 @@
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Reallukeisbest#2583";
+		Text = "Game detected! Blade Throwing Simulator!";
+	})
+
 --Made by Reallukeisbest#2583
 loadstring(game:HttpGet("https://pastebin.com/raw/xkrNeNaf"))()
 wait (0.5)
