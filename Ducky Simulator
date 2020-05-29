@@ -1,3 +1,9 @@
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Reallukeisbest#2583";
+		Text = "Game detected! Ducky Simulator!";
+	})
+
+
 function Swing()
 game:GetService("ReplicatedStorage").Events["Duck Events"].Swing:FireServer()
 end
