@@ -219,6 +219,10 @@ local function ZJALU_fake_script() -- TextButton_5.Script
 		frame:TweenPosition(UDim2.new(-0.5, 0,0.319, 0))
 		wait(5)
 		ScreenGui:Destroy()
+			game.StarterGui:SetCore("SendNotification", {
+		Title = "Reallukeisbest#2583";
+		Text = "Bye. Come back soon. :(";
+	})
 		end)
 end
 coroutine.wrap(ZJALU_fake_script)()
