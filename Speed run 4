@@ -1,0 +1,320 @@
+A = false
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Reallukeisbest#2583";
+		Text = "Game detected! Speed run 4!";
+	})
+
+local library = loadstring(game:HttpGet(('https://pastebin.com/raw/FsJak6AT')))() -- load the library
+local w = library:CreateWindow("Speed Run 4") 
+local b = w:CreateFolder("Functions")
+b:Button("Skip Stage",function()
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+end)
+b:Button("Autofarm gems and lvls on",function()
+    A = true
+    while A == true do
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+local args = {
+    [1] = 125.04397821426,
+    [2] = "Level 30",
+    [3] = "Normal",
+    [4] = false,
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = 0,
+}
+
+game:GetService("ReplicatedStorage").SetLevel:FireServer(unpack(args))
+wait(0.2)
+        end
+end)
+b:Button("Autofarm gems and lvls off",function()
+    A = false
+end)
+b:DestroyGUI()
+local b = w:CreateFolder("CREDITS")
+b:Label("Credits",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111))
+b:Button("Reallukeisbest#2583",function()
+    setclipboard("Reallukeisbest#2583")
+    end)
