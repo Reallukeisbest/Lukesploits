@@ -102,6 +102,7 @@ local function IATTZT_fake_script() -- TextButton.Script
 		end		
 		end
 		end
+		end
 		end)
 end
 coroutine.wrap(IATTZT_fake_script)()
