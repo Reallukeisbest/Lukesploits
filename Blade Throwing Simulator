@@ -1,10 +1,9 @@
+--Made by Reallukeisbest#2583
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "Reallukeisbest#2583";
 		Text = "Game detected! Blade Throwing Simulator!";
 	})
-
---Made by Reallukeisbest#2583
-loadstring(game:HttpGet("https://pastebin.com/raw/xkrNeNaf"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/S5Ee8jaV"))()
 wait (0.5)
 AS = false
 AT = false
@@ -30,7 +29,7 @@ game:GetService("ReplicatedStorage").RE:FireServer(unpack(args))
 function autoSell()
 local args = {
     [1] = "SellPower",
-    [2] = workspace.Ignore.Rings["21Sell"].Collider,
+    [2] = workspace.Ignore.Rings["22Sell"].Collider,
 }
 game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
 end
@@ -118,6 +117,9 @@ end)
 b:Button("Island 21",function()
     game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(158.512146, 55745.7227, -458.79892, -0.549601436, 0.0636311918, -0.833000422, 0.0615887381, 0.997467995, 0.0355592035, 0.833153963, -0.0317600556, -0.552128792)
 end)
+b:Button("Island 22",function()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(153.50676, 58469.9023, -412.417297)
+    end)
 local b = w:CreateFolder("OTHER TELEPORTS")
 b:Label("Other Teleports",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111))
 b:Button("King of the hill",function()
@@ -304,7 +306,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").RE:FireServer(unpack(args))
-game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(199.58934, 55759.5195, -793.068298, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(208.187927, 58491.4648, -796.744324)
 end
 end)
 b:Button("Lava Golem Off",function()
@@ -378,7 +380,7 @@ game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
 end)
 b:Button("Inf Jump",function()
     game.Players.LocalPlayer.Data.GP["InfiniteJump"].Value = true
-    end)
+end)
     b:DestroyGUI()
 local b = w:CreateFolder("CREDITS")
 b:Label("Credits",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111))
