@@ -6,6 +6,10 @@ if game.CoreGui:FindFirstChild("Reallukeisbest2583") then
     end
 if game.PlaceId == 476014299 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Reallukeisbest/Lukesploits/master/Block%20spam/Adopt%20in%20Paradise"))()
+elseif game.PlaceId == 656314299 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reallukeisbest/Lukesploits/master/Block%20spam/Blox%20Paradise"))()
+elseif game.PlaceId == 3554069044 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reallukeisbest/Lukesploits/master/Block%20spam/Live%20Life%20Rich%20and%20Famous%20in%20Paradise"))()
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Reallukeisbest/Lukesploits/master/Block%20spam/Universal%20hat%20spam"))()
 end
