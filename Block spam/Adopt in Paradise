@@ -181,7 +181,7 @@ CRASHING.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 CRASHING.Position = UDim2.new(0.5, 0, 0.5, 0)
 CRASHING.Size = UDim2.new(0, 1035, 0, 542)
 CRASHING.Visible = false
-CRASHING.Text = "CRASHING"
+CRASHING.Text = "CRASHING IN 5 SEC"
 CRASHING.TextScaled = true
 CRASHING.TextWrapped = true
 
@@ -307,6 +307,8 @@ local function ZUFRF_fake_script() -- OhNo.Script
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.CRASHING.Visible = true
 		wait(5)
+		CRASHING.Text = "CRASHING"
+		wait()
 	for i = 1, 100000 do
 		local args = {
 	    [1] = {
