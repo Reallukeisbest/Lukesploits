@@ -1,6 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
 -- Instances:
 
 local Reallukeisbest2583 = Instance.new("ScreenGui")
@@ -16,6 +13,7 @@ local OhNo = Instance.new("TextButton")
 local OhYes = Instance.new("TextButton")
 local TextLabel_2 = Instance.new("TextLabel")
 local Ok3_2 = Instance.new("TextButton")
+local GN = Instance.new("TextLabel")
 local TextButton_2 = Instance.new("TextButton")
 local CRASHING = Instance.new("TextLabel")
 
@@ -27,7 +25,7 @@ Reallukeisbest2583.Parent = game.CoreGui
 Frame.Parent = Reallukeisbest2583
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.Position = UDim2.new(0.0395314805, 0, 0.0977835655, 0)
-Frame.Size = UDim2.new(0, 548, 0, 432)
+Frame.Size = UDim2.new(0, 548, 0, 515)
 
 TextButton.Parent = Frame
 TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -66,7 +64,7 @@ TextLabel.TextWrapped = true
 Ok.Name = "Ok"
 Ok.Parent = Frame
 Ok.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Ok.Position = UDim2.new(0.0465128012, 0, 0.574400067, 0)
+Ok.Position = UDim2.new(0.0465128012, 0, 0.481196195, 0)
 Ok.Size = UDim2.new(0, 495, 0, 47)
 Ok.Font = Enum.Font.SourceSans
 Ok.Text = "Drop the hats"
@@ -78,7 +76,7 @@ Ok.TextWrapped = true
 Ok2.Name = "Ok2"
 Ok2.Parent = Frame
 Ok2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Ok2.Position = UDim2.new(0.0538120754, 0, 0.374659002, 0)
+Ok2.Position = UDim2.new(0.0538120754, 0, 0.320290059, 0)
 Ok2.Size = UDim2.new(0, 495, 0, 47)
 Ok2.Font = Enum.Font.SourceSans
 Ok2.Text = "Block hats"
@@ -90,7 +88,7 @@ Ok2.TextWrapped = true
 Ok3.Name = "Ok3"
 Ok3.Parent = Frame
 Ok3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Ok3.Position = UDim2.new(0.0519872531, 0, 0.742126048, 0)
+Ok3.Position = UDim2.new(0.0538120717, 0, 0.646980405, 0)
 Ok3.Size = UDim2.new(0, 495, 0, 47)
 Ok3.Font = Enum.Font.SourceSans
 Ok3.Text = "Delete hats"
@@ -102,14 +100,14 @@ Ok3.TextWrapped = true
 Crash.Name = "Crash"
 Crash.Parent = Frame
 Crash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Crash.Position = UDim2.new(0.998364866, 0, -0.00188078731, 0)
-Crash.Size = UDim2.new(0, 384, 0, 432)
+Crash.Position = UDim2.new(0.998364866, 0, -0.00188077171, 0)
+Crash.Size = UDim2.new(0, 384, 0, 515)
 Crash.Visible = false
 
 OhNo.Name = "OhNo"
 OhNo.Parent = Crash
 OhNo.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
-OhNo.Position = UDim2.new(0.0486036949, 0, 0.857866764, 0)
+OhNo.Position = UDim2.new(0.045999527, 0, 0.873400748, 0)
 OhNo.Size = UDim2.new(0, 175, 0, 47)
 OhNo.Font = Enum.Font.SourceSans
 OhNo.Text = "Yes"
@@ -121,7 +119,7 @@ OhNo.TextWrapped = true
 OhYes.Name = "OhYes"
 OhYes.Parent = Crash
 OhYes.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-OhYes.Position = UDim2.new(0.54339534, 0, 0.857866764, 0)
+OhYes.Position = UDim2.new(0.54339534, 0, 0.873400748, 0)
 OhYes.Size = UDim2.new(0, 163, 0, 47)
 OhYes.Font = Enum.Font.SourceSans
 OhYes.Text = "No"
@@ -132,8 +130,8 @@ OhYes.TextWrapped = true
 
 TextLabel_2.Parent = Crash
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.Position = UDim2.new(0.00198968244, 0, 0.00122833252, 0)
-TextLabel_2.Size = UDim2.new(0, 383, 0, 351)
+TextLabel_2.Position = UDim2.new(0.00198968244, 0, 0.0012283473, 0)
+TextLabel_2.Size = UDim2.new(0, 383, 0, 422)
 TextLabel_2.Font = Enum.Font.SourceSans
 TextLabel_2.Text = "Are you sure that you would like to crash the server? (This will cause a LOT of lag)"
 TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -144,7 +142,7 @@ TextLabel_2.TextWrapped = true
 Ok3_2.Name = "Ok3"
 Ok3_2.Parent = Frame
 Ok3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Ok3_2.Position = UDim2.new(0.0538120717, 0, 0.87175566, 0)
+Ok3_2.Position = UDim2.new(0.0538120717, 0, 0.778551757, 0)
 Ok3_2.Size = UDim2.new(0, 495, 0, 47)
 Ok3_2.Font = Enum.Font.SourceSans
 Ok3_2.Text = "Crash server"
@@ -152,6 +150,18 @@ Ok3_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 Ok3_2.TextScaled = true
 Ok3_2.TextSize = 14.000
 Ok3_2.TextWrapped = true
+
+GN.Name = "GN"
+GN.Parent = Frame
+GN.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GN.Position = UDim2.new(0, 0, 0.900970876, 0)
+GN.Size = UDim2.new(0, 547, 0, 50)
+GN.Font = Enum.Font.SourceSans
+GN.Text = "Detecting your game"
+GN.TextColor3 = Color3.fromRGB(0, 0, 0)
+GN.TextScaled = true
+GN.TextSize = 14.000
+GN.TextWrapped = true
 
 TextButton_2.Parent = Reallukeisbest2583
 TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -177,7 +187,7 @@ CRASHING.TextWrapped = true
 
 -- Scripts:
 
-local function LZEOY_fake_script() -- TextButton.Script 
+local function AGHO_fake_script() -- TextButton.Script 
 	local script = Instance.new('Script', TextButton)
 
 	x = 0
@@ -205,8 +215,8 @@ local function LZEOY_fake_script() -- TextButton.Script
 	TextButton.Text = "Load hats"
 	end)
 end
-coroutine.wrap(LZEOY_fake_script)()
-local function DRCFYP_fake_script() -- Frame.Dragify 
+coroutine.wrap(AGHO_fake_script)()
+local function RAYRFQ_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -247,8 +257,8 @@ local function DRCFYP_fake_script() -- Frame.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(DRCFYP_fake_script)()
-local function GRKLJLO_fake_script() -- Ok.Script 
+coroutine.wrap(RAYRFQ_fake_script)()
+local function TYHCP_fake_script() -- Ok.Script 
 	local script = Instance.new('Script', Ok)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -265,8 +275,8 @@ local function GRKLJLO_fake_script() -- Ok.Script
 	end
 	end)
 end
-coroutine.wrap(GRKLJLO_fake_script)()
-local function ESVG_fake_script() -- Ok2.Script 
+coroutine.wrap(TYHCP_fake_script)()
+local function RGXL_fake_script() -- Ok2.Script 
 	local script = Instance.new('Script', Ok2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -277,8 +287,8 @@ local function ESVG_fake_script() -- Ok2.Script
 	end
 	end)
 end
-coroutine.wrap(ESVG_fake_script)()
-local function EHART_fake_script() -- Ok3.Script 
+coroutine.wrap(RGXL_fake_script)()
+local function XCPFQVG_fake_script() -- Ok3.Script 
 	local script = Instance.new('Script', Ok3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -290,8 +300,8 @@ local function EHART_fake_script() -- Ok3.Script
 	
 	end)
 end
-coroutine.wrap(EHART_fake_script)()
-local function KRMNKM_fake_script() -- OhNo.Script 
+coroutine.wrap(XCPFQVG_fake_script)()
+local function ZUFRF_fake_script() -- OhNo.Script 
 	local script = Instance.new('Script', OhNo)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -310,24 +320,32 @@ local function KRMNKM_fake_script() -- OhNo.Script
 	end
 	end)
 end
-coroutine.wrap(KRMNKM_fake_script)()
-local function ZUCQ_fake_script() -- OhYes.Script 
+coroutine.wrap(ZUFRF_fake_script)()
+local function NYNS_fake_script() -- OhYes.Script 
 	local script = Instance.new('Script', OhYes)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.Crash.Visible = false
 	end)
 end
-coroutine.wrap(ZUCQ_fake_script)()
-local function DFRCY_fake_script() -- Ok3_2.Script 
+coroutine.wrap(NYNS_fake_script)()
+local function LSYI_fake_script() -- Ok3_2.Script 
 	local script = Instance.new('Script', Ok3_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Crash.Visible = true
 	end)
 end
-coroutine.wrap(DFRCY_fake_script)()
-local function KISWAXW_fake_script() -- TextButton_2.Script 
+coroutine.wrap(LSYI_fake_script)()
+local function KFVO_fake_script() -- GN.Script 
+	local script = Instance.new('Script', GN)
+
+	local placeId = game.placeId
+	local Asset = game:GetService("MarketplaceService"):GetProductInfo(placeId)
+	GN.Text = "Your game name is:"..Asset.Name
+end
+coroutine.wrap(KFVO_fake_script)()
+local function YWHW_fake_script() -- TextButton_2.Script 
 	local script = Instance.new('Script', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -338,4 +356,4 @@ local function KISWAXW_fake_script() -- TextButton_2.Script
 		end
 		end)
 end
-coroutine.wrap(KISWAXW_fake_script)()
+coroutine.wrap(YWHW_fake_script)()
