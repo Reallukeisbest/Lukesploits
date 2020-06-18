@@ -1,0 +1,11 @@
+if game.CoreGui:FindFirstChild("ScreenGui") then
+    game.CoreGui.ScreenGui:Destroy()
+    end
+if game.CoreGui:FindFirstChild("Reallukeisbest2583") then
+    game.CoreGui.Reallukeisbest2583:Destroy()
+    end
+if game.PlaceId == 476014299 then
+
+else
+
+end
