@@ -1,3 +1,14 @@
+function Hat()
+    		local args = {
+	    [1] = {
+	        [1] = "Wear",
+	        [2] = "9251145",
+	        [3] = "Hats",
+	    },
+	}
+	
+			game:GetService("ReplicatedStorage").WearItem:FireServer(unpack(args))
+end
 -- Instances:
 
 local Reallukeisbest2583 = Instance.new("ScreenGui")
@@ -199,15 +210,7 @@ local function AGHO_fake_script() -- TextButton.Script
 	end
 	wait()
 	for i = 1, TextBox.Text do
-		local args = {
-	    [1] = {
-	        [1] = "Wear",
-	        [2] = "9251145",
-	        [3] = "Hats",
-	    },
-	}
-	
-			game:GetService("ReplicatedStorage").WearItem:FireServer(unpack(args))
+Hat()
 			x = x + 1
 	end
 	TextButton.Text = "Loaded!"
@@ -310,15 +313,7 @@ local function ZUFRF_fake_script() -- OhNo.Script
 		CRASHING.Text = "CRASHING"
 		wait()
 	for i = 1, 100000 do
-		local args = {
-	    [1] = {
-	        [1] = "Wear",
-	        [2] = "9251145",
-	        [3] = "Hats",
-	    },
-	}
-	
-			game:GetService("ReplicatedStorage").WearItem:FireServer(unpack(args))
+Hat()
 	end
 	end)
 end
