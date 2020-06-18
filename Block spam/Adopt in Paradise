@@ -344,7 +344,7 @@ local function KFVO_fake_script() -- GN.Script
 
 	local placeId = game.placeId
 	local Asset = game:GetService("MarketplaceService"):GetProductInfo(placeId)
-	GN.Text = "Your game name is:"..Asset.Name
+	GN.Text = "Your are in:"..Asset.Name
 end
 coroutine.wrap(KFVO_fake_script)()
 local function YWHW_fake_script() -- TextButton_2.Script 
