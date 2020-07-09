@@ -286,7 +286,7 @@ local function RGXL_fake_script() -- Ok2.Script
 	script.Parent.MouseButton1Click:Connect(function()
 	for _,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
 	if (v:IsA("Accessory")) then
-	v.Handle.Mesh:remove()
+	v.Handle.SpecialMesh:remove()
 	end
 	end
 	end)
