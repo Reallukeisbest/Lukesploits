@@ -14,6 +14,8 @@ elseif game.PlaceId == 3403198088 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Reallukeisbest/Lukesploits/master/Block%20spam/Family%20Life"))()
 elseif game.PlaceId == 5234576461 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Reallukeisbest/Lukesploits/master/Block%20spam/Epic%20Spongebob%20Cart%20Ride!"))()
+elseif game.PlaceId == 4790145440 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reallukeisbest/Lukesploits/master/Block%20spam/Blox%20Life"))()
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Reallukeisbest/Lukesploits/master/Block%20spam/Universal%20hat%20spam"))()
 end
