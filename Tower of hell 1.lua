@@ -2,7 +2,6 @@ if game.CoreGui:FindFirstChild("ShowerLib37284948394") then
 game.CoreGui.ShowerLib37284948394:Destroy()
 end
 wait()
-loadstring(game:HttpGet("https://pastebin.com/raw/Z0UWFqkj"))()
 local ShowerLib = loadstring(game:HttpGet("https://pastebin.com/raw/NaA90nZD"))()
 local Window = ShowerLib:CreateWindow("TOH"); --Clicking this will make it rotate.
 local HomePage = Window:Section("Functions")
