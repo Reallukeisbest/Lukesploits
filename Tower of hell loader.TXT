@@ -23,14 +23,14 @@ ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.000274035381, 0, 0.442167312, 0)
 ImageButton.Size = UDim2.new(0, 392, 0, 238)
-ImageButton.Image = "rbxgameasset://Images/Ok"
+ImageButton.Image = "http://www.roblox.com/asset/?id=5438820912"
 
 ImageButton_2.Parent = Frame
 ImageButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton_2.BorderSizePixel = 0
 ImageButton_2.Position = UDim2.new(0.501495957, 0, 0.442167312, 0)
 ImageButton_2.Size = UDim2.new(0, 391, 0, 238)
-ImageButton_2.Image = "rbxgameasset://Images/OkOk"
+ImageButton_2.Image = "http://www.roblox.com/asset/?id=5438828006"
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
