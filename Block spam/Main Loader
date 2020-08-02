@@ -18,6 +18,8 @@ elseif game.PlaceId == 4790145440 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Reallukeisbest/Lukesploits/master/Block%20spam/Blox%20Life"))()
 elseif game.PlaceId == 5036742729 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Reallukeisbest/Lukesploits/master/Block%20spam/Hospital%20Life%20Roleplay"))()
+elseif game.PlaceId == 204888921 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reallukeisbest/Lukesploits/master/Block%20spam/Boys%20And%20Girls%20PROM%20NIGHT"))()
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Reallukeisbest/Lukesploits/master/Block%20spam/Universal%20hat%20spam"))()
 end
